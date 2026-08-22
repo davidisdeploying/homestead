@@ -1,0 +1,55 @@
+[Unit]
+# Canonical unit for the Homestead Scout read-only Gmail importer.
+#
+# NOT INSTALLED as of 2026-08-09: no verified Zillow/Redfin alert template is registered,
+# so the importer exits 3 by design. Install and enable this only after scout/adapters.py
+# has at least one adapter and one bounded real import has been inspected by hand.
+Description=Homestead Scout read-only Gmail importer
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=homestead
+Group=homestead
+WorkingDirectory=/opt/homestead
+Environment=HOMESTEAD_SCOUT_DB=/var/lib/homestead/scout/scout.sqlite3
+Environment=HOMESTEAD_SCOUT_GMAIL_CREDENTIALS=/var/lib/homestead/scout-gmail/client_secret.json
+Environment=HOMESTEAD_SCOUT_GMAIL_TOKEN=/var/lib/homestead/scout-gmail/token.json
+ExecStart=/usr/bin/python3 /opt/homestead/scripts/scout_gmail.py run
+
+# Hardening mirrors homestead.service, with one deliberate difference: this unit must
+# reach Google's OAuth and Gmail endpoints, so it does not carry homestead.service's
+# IPAddressAllow=localhost / IPAddressDeny=any. Everything else stays closed.
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/homestead/scout /var/lib/homestead/scout-gmail
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+ProtectHostname=true
+ProtectClock=true
+ProtectKernelLogs=true
+ProtectProc=invisible
+ProcSubset=pid
+RestrictAddressFamilies=AF_INET AF_INET6
+RestrictNamespaces=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+CapabilityBoundingSet=
+AmbientCapabilities=
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+SystemCallErrorNumber=EPERM
+RemoveIPC=true
+PrivateMounts=true
+MemoryMax=256M
+TasksMax=64
+
+[Install]
+WantedBy=multi-user.target

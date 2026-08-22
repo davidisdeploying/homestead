@@ -1,0 +1,947 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABDAE2203028E54900C16F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAE21F3028E54900C16F5D /* AppDelegate.swift */; };
+		ABDAE2223028E54900C16F5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAE2213028E54900C16F5D /* SceneDelegate.swift */; };
+		ABDAE2253028E54900C16F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2233028E54900C16F5D /* LaunchScreen.storyboard */; };
+		ABDAE2283028E54900C16F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2263028E54900C16F5D /* Main.storyboard */; };
+		ABDAE2313028E54A00C16F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAE2303028E54A00C16F5D /* AppDelegate.swift */; };
+		ABDAE2343028E54A00C16F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2323028E54A00C16F5D /* Main.storyboard */; };
+		ABDAE23B3028E54A00C16F5D /* Homestead for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ABDAE23A3028E54A00C16F5D /* Homestead for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABDAE2453028E54A00C16F5D /* Homestead for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = ABDAE2443028E54A00C16F5D /* Homestead for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABDAE24A3028E54A00C16F5D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE20F3028E54700C16F5D /* Main.html */; };
+		ABDAE24B3028E54A00C16F5D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE20F3028E54700C16F5D /* Main.html */; };
+		ABDAE24C3028E54A00C16F5D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2113028E54700C16F5D /* Icon.png */; };
+		ABDAE24D3028E54A00C16F5D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2113028E54700C16F5D /* Icon.png */; };
+		ABDAE24E3028E54A00C16F5D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2123028E54700C16F5D /* Style.css */; };
+		ABDAE24F3028E54A00C16F5D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2123028E54700C16F5D /* Style.css */; };
+		ABDAE2503028E54A00C16F5D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2133028E54700C16F5D /* Script.js */; };
+		ABDAE2513028E54A00C16F5D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2133028E54700C16F5D /* Script.js */; };
+		ABDAE2523028E54A00C16F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAE2143028E54700C16F5D /* ViewController.swift */; };
+		ABDAE2533028E54A00C16F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAE2143028E54700C16F5D /* ViewController.swift */; };
+		ABDAE2543028E54A00C16F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2153028E54900C16F5D /* Assets.xcassets */; };
+		ABDAE2553028E54A00C16F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2153028E54900C16F5D /* Assets.xcassets */; };
+		ABDAE2563028E54A00C16F5D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAE2173028E54900C16F5D /* SafariWebExtensionHandler.swift */; };
+		ABDAE2573028E54A00C16F5D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDAE2173028E54900C16F5D /* SafariWebExtensionHandler.swift */; };
+		ABDAE2703028E54A00C16F5D /* test in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2693028E54A00C16F5D /* test */; };
+		ABDAE2713028E54A00C16F5D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26A3028E54A00C16F5D /* README.md */; };
+		ABDAE2723028E54A00C16F5D /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26B3028E54A00C16F5D /* package-lock.json */; };
+		ABDAE2733028E54A00C16F5D /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26C3028E54A00C16F5D /* package.json */; };
+		ABDAE2743028E54A00C16F5D /* icons in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26D3028E54A00C16F5D /* icons */; };
+		ABDAE2753028E54A00C16F5D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26E3028E54A00C16F5D /* manifest.json */; };
+		ABDAE2763028E54A00C16F5D /* src in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26F3028E54A00C16F5D /* src */; };
+		ABDAE2773028E54A00C16F5D /* test in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE2693028E54A00C16F5D /* test */; };
+		ABDAE2783028E54A00C16F5D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26A3028E54A00C16F5D /* README.md */; };
+		ABDAE2793028E54A00C16F5D /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26B3028E54A00C16F5D /* package-lock.json */; };
+		ABDAE27A3028E54A00C16F5D /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26C3028E54A00C16F5D /* package.json */; };
+		ABDAE27B3028E54A00C16F5D /* icons in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26D3028E54A00C16F5D /* icons */; };
+		ABDAE27C3028E54A00C16F5D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26E3028E54A00C16F5D /* manifest.json */; };
+		ABDAE27D3028E54A00C16F5D /* src in Resources */ = {isa = PBXBuildFile; fileRef = ABDAE26F3028E54A00C16F5D /* src */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABDAE23C3028E54A00C16F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDAE2093028E54600C16F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDAE2393028E54A00C16F5D;
+			remoteInfo = "Homestead for Safari Extension (iOS)";
+		};
+		ABDAE2463028E54A00C16F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDAE2093028E54600C16F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDAE2433028E54A00C16F5D;
+			remoteInfo = "Homestead for Safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABDAE25D3028E54A00C16F5D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				ABDAE23B3028E54A00C16F5D /* Homestead for Safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+		ABDAE2643028E54A00C16F5D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				ABDAE2453028E54A00C16F5D /* Homestead for Safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABDAE2103028E54700C16F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		ABDAE2113028E54700C16F5D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		ABDAE2123028E54700C16F5D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		ABDAE2133028E54700C16F5D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		ABDAE2143028E54700C16F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABDAE2153028E54900C16F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDAE2173028E54900C16F5D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		ABDAE21C3028E54900C16F5D /* Homestead for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homestead for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDAE21F3028E54900C16F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABDAE2213028E54900C16F5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABDAE2243028E54900C16F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABDAE2273028E54900C16F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDAE2293028E54A00C16F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDAE22E3028E54A00C16F5D /* Homestead for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homestead for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDAE2303028E54A00C16F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABDAE2333028E54A00C16F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDAE2353028E54A00C16F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDAE23A3028E54A00C16F5D /* Homestead for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Homestead for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDAE23F3028E54A00C16F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDAE2443028E54A00C16F5D /* Homestead for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Homestead for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDAE2493028E54A00C16F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDAE2693028E54A00C16F5D /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; name = test; path = Resources/test; sourceTree = "<group>"; };
+		ABDAE26A3028E54A00C16F5D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Resources/README.md; sourceTree = "<group>"; };
+		ABDAE26B3028E54A00C16F5D /* package-lock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "package-lock.json"; path = "Resources/package-lock.json"; sourceTree = "<group>"; };
+		ABDAE26C3028E54A00C16F5D /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = package.json; path = Resources/package.json; sourceTree = "<group>"; };
+		ABDAE26D3028E54A00C16F5D /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		ABDAE26E3028E54A00C16F5D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		ABDAE26F3028E54A00C16F5D /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = Resources/src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDAE2193028E54900C16F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		ABDAE22B3028E54A00C16F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		ABDAE2373028E54A00C16F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		ABDAE2413028E54A00C16F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDAE2083028E54600C16F5D = {
+			isa = PBXGroup;
+			children = (
+				ABDAE20D3028E54700C16F5D /* Shared (App) */,
+				ABDAE2163028E54900C16F5D /* Shared (Extension) */,
+				ABDAE21E3028E54900C16F5D /* iOS (App) */,
+				ABDAE22F3028E54A00C16F5D /* macOS (App) */,
+				ABDAE23E3028E54A00C16F5D /* iOS (Extension) */,
+				ABDAE2483028E54A00C16F5D /* macOS (Extension) */,
+				ABDAE21D3028E54900C16F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDAE20D3028E54700C16F5D /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ABDAE2143028E54700C16F5D /* ViewController.swift */,
+				ABDAE2153028E54900C16F5D /* Assets.xcassets */,
+				ABDAE20E3028E54700C16F5D /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		ABDAE20E3028E54700C16F5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABDAE20F3028E54700C16F5D /* Main.html */,
+				ABDAE2113028E54700C16F5D /* Icon.png */,
+				ABDAE2123028E54700C16F5D /* Style.css */,
+				ABDAE2133028E54700C16F5D /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABDAE2163028E54900C16F5D /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ABDAE2683028E54A00C16F5D /* Resources */,
+				ABDAE2173028E54900C16F5D /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		ABDAE21D3028E54900C16F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDAE21C3028E54900C16F5D /* Homestead for Safari.app */,
+				ABDAE22E3028E54A00C16F5D /* Homestead for Safari.app */,
+				ABDAE23A3028E54A00C16F5D /* Homestead for Safari Extension.appex */,
+				ABDAE2443028E54A00C16F5D /* Homestead for Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDAE21E3028E54900C16F5D /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ABDAE21F3028E54900C16F5D /* AppDelegate.swift */,
+				ABDAE2213028E54900C16F5D /* SceneDelegate.swift */,
+				ABDAE2233028E54900C16F5D /* LaunchScreen.storyboard */,
+				ABDAE2263028E54900C16F5D /* Main.storyboard */,
+				ABDAE2293028E54A00C16F5D /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		ABDAE22F3028E54A00C16F5D /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				ABDAE2303028E54A00C16F5D /* AppDelegate.swift */,
+				ABDAE2323028E54A00C16F5D /* Main.storyboard */,
+				ABDAE2353028E54A00C16F5D /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		ABDAE23E3028E54A00C16F5D /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ABDAE23F3028E54A00C16F5D /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		ABDAE2483028E54A00C16F5D /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				ABDAE2493028E54A00C16F5D /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		ABDAE2683028E54A00C16F5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABDAE2693028E54A00C16F5D /* test */,
+				ABDAE26A3028E54A00C16F5D /* README.md */,
+				ABDAE26B3028E54A00C16F5D /* package-lock.json */,
+				ABDAE26C3028E54A00C16F5D /* package.json */,
+				ABDAE26D3028E54A00C16F5D /* icons */,
+				ABDAE26E3028E54A00C16F5D /* manifest.json */,
+				ABDAE26F3028E54A00C16F5D /* src */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDAE21B3028E54900C16F5D /* Homestead for Safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDAE25E3028E54A00C16F5D /* Build configuration list for PBXNativeTarget "Homestead for Safari (iOS)" */;
+			buildPhases = (
+				ABDAE2183028E54900C16F5D /* Sources */,
+				ABDAE2193028E54900C16F5D /* Frameworks */,
+				ABDAE21A3028E54900C16F5D /* Resources */,
+				ABDAE25D3028E54A00C16F5D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDAE23D3028E54A00C16F5D /* PBXTargetDependency */,
+			);
+			name = "Homestead for Safari (iOS)";
+			productName = "Homestead for Safari (iOS)";
+			productReference = ABDAE21C3028E54900C16F5D /* Homestead for Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABDAE22D3028E54A00C16F5D /* Homestead for Safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDAE2653028E54A00C16F5D /* Build configuration list for PBXNativeTarget "Homestead for Safari (macOS)" */;
+			buildPhases = (
+				ABDAE22A3028E54A00C16F5D /* Sources */,
+				ABDAE22B3028E54A00C16F5D /* Frameworks */,
+				ABDAE22C3028E54A00C16F5D /* Resources */,
+				ABDAE2643028E54A00C16F5D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDAE2473028E54A00C16F5D /* PBXTargetDependency */,
+			);
+			name = "Homestead for Safari (macOS)";
+			productName = "Homestead for Safari (macOS)";
+			productReference = ABDAE22E3028E54A00C16F5D /* Homestead for Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABDAE2393028E54A00C16F5D /* Homestead for Safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDAE25A3028E54A00C16F5D /* Build configuration list for PBXNativeTarget "Homestead for Safari Extension (iOS)" */;
+			buildPhases = (
+				ABDAE2363028E54A00C16F5D /* Sources */,
+				ABDAE2373028E54A00C16F5D /* Frameworks */,
+				ABDAE2383028E54A00C16F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Homestead for Safari Extension (iOS)";
+			productName = "Homestead for Safari Extension (iOS)";
+			productReference = ABDAE23A3028E54A00C16F5D /* Homestead for Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		ABDAE2433028E54A00C16F5D /* Homestead for Safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDAE2613028E54A00C16F5D /* Build configuration list for PBXNativeTarget "Homestead for Safari Extension (macOS)" */;
+			buildPhases = (
+				ABDAE2403028E54A00C16F5D /* Sources */,
+				ABDAE2413028E54A00C16F5D /* Frameworks */,
+				ABDAE2423028E54A00C16F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			name = "Homestead for Safari Extension (macOS)";
+			productName = "Homestead for Safari Extension (macOS)";
+			productReference = ABDAE2443028E54A00C16F5D /* Homestead for Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDAE2093028E54600C16F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					ABDAE21B3028E54900C16F5D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					ABDAE22D3028E54A00C16F5D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					ABDAE2393028E54A00C16F5D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					ABDAE2433028E54A00C16F5D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = ABDAE20C3028E54600C16F5D /* Build configuration list for PBXProject "Homestead for Safari" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDAE2083028E54600C16F5D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ABDAE21D3028E54900C16F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDAE21B3028E54900C16F5D /* Homestead for Safari (iOS) */,
+				ABDAE22D3028E54A00C16F5D /* Homestead for Safari (macOS) */,
+				ABDAE2393028E54A00C16F5D /* Homestead for Safari Extension (iOS) */,
+				ABDAE2433028E54A00C16F5D /* Homestead for Safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDAE21A3028E54900C16F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				ABDAE24C3028E54A00C16F5D /* Icon.png in Resources */,
+				ABDAE2253028E54900C16F5D /* LaunchScreen.storyboard in Resources */,
+				ABDAE24A3028E54A00C16F5D /* Main.html in Resources */,
+				ABDAE2503028E54A00C16F5D /* Script.js in Resources */,
+				ABDAE2543028E54A00C16F5D /* Assets.xcassets in Resources */,
+				ABDAE2283028E54900C16F5D /* Main.storyboard in Resources */,
+				ABDAE24E3028E54A00C16F5D /* Style.css in Resources */,
+			);
+		};
+		ABDAE22C3028E54A00C16F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				ABDAE24D3028E54A00C16F5D /* Icon.png in Resources */,
+				ABDAE24F3028E54A00C16F5D /* Style.css in Resources */,
+				ABDAE2343028E54A00C16F5D /* Main.storyboard in Resources */,
+				ABDAE2513028E54A00C16F5D /* Script.js in Resources */,
+				ABDAE2553028E54A00C16F5D /* Assets.xcassets in Resources */,
+				ABDAE24B3028E54A00C16F5D /* Main.html in Resources */,
+			);
+		};
+		ABDAE2383028E54A00C16F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				ABDAE27B3028E54A00C16F5D /* icons in Resources */,
+				ABDAE27C3028E54A00C16F5D /* manifest.json in Resources */,
+				ABDAE27D3028E54A00C16F5D /* src in Resources */,
+			);
+		};
+		ABDAE2423028E54A00C16F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				ABDAE2743028E54A00C16F5D /* icons in Resources */,
+				ABDAE2753028E54A00C16F5D /* manifest.json in Resources */,
+				ABDAE2763028E54A00C16F5D /* src in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDAE2183028E54900C16F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				ABDAE2523028E54A00C16F5D /* ViewController.swift in Sources */,
+				ABDAE2203028E54900C16F5D /* AppDelegate.swift in Sources */,
+				ABDAE2223028E54900C16F5D /* SceneDelegate.swift in Sources */,
+			);
+		};
+		ABDAE22A3028E54A00C16F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				ABDAE2533028E54A00C16F5D /* ViewController.swift in Sources */,
+				ABDAE2313028E54A00C16F5D /* AppDelegate.swift in Sources */,
+			);
+		};
+		ABDAE2363028E54A00C16F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				ABDAE2563028E54A00C16F5D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+		ABDAE2403028E54A00C16F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				ABDAE2573028E54A00C16F5D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABDAE23D3028E54A00C16F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDAE2393028E54A00C16F5D /* Homestead for Safari Extension (iOS) */;
+			targetProxy = ABDAE23C3028E54A00C16F5D /* PBXContainerItemProxy */;
+		};
+		ABDAE2473028E54A00C16F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDAE2433028E54A00C16F5D /* Homestead for Safari Extension (macOS) */;
+			targetProxy = ABDAE2463028E54A00C16F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABDAE20F3028E54700C16F5D /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDAE2103028E54700C16F5D /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		ABDAE2233028E54900C16F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDAE2243028E54900C16F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDAE2263028E54900C16F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDAE2273028E54900C16F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDAE2323028E54A00C16F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDAE2333028E54A00C16F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDAE2583028E54A00C16F5D /* Debug configuration for PBXProject "Homestead for Safari" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABDAE2593028E54A00C16F5D /* Release configuration for PBXProject "Homestead for Safari" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ABDAE25B3028E54A00C16F5D /* Debug configuration for PBXNativeTarget "Homestead for Safari Extension (iOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Homestead for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.davidgomez.homestead.safari.Extension;
+				PRODUCT_NAME = "Homestead for Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDAE25C3028E54A00C16F5D /* Release configuration for PBXNativeTarget "Homestead for Safari Extension (iOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Homestead for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.davidgomez.homestead.safari.Extension;
+				PRODUCT_NAME = "Homestead for Safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDAE25F3028E54A00C16F5D /* Debug configuration for PBXNativeTarget "Homestead for Safari (iOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Homestead for Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.davidgomez.homestead.safari;
+				PRODUCT_NAME = "Homestead for Safari";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDAE2603028E54A00C16F5D /* Release configuration for PBXNativeTarget "Homestead for Safari (iOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Homestead for Safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.davidgomez.homestead.safari;
+				PRODUCT_NAME = "Homestead for Safari";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDAE2623028E54A00C16F5D /* Debug configuration for PBXNativeTarget "Homestead for Safari Extension (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Homestead for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.davidgomez.homestead.safari.Extension;
+				PRODUCT_NAME = "Homestead for Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABDAE2633028E54A00C16F5D /* Release configuration for PBXNativeTarget "Homestead for Safari Extension (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Homestead for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.davidgomez.homestead.safari.Extension;
+				PRODUCT_NAME = "Homestead for Safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ABDAE2663028E54A00C16F5D /* Debug configuration for PBXNativeTarget "Homestead for Safari (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Homestead for Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.davidgomez.homestead.safari;
+				PRODUCT_NAME = "Homestead for Safari";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABDAE2673028E54A00C16F5D /* Release configuration for PBXNativeTarget "Homestead for Safari (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Homestead for Safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.davidgomez.homestead.safari;
+				PRODUCT_NAME = "Homestead for Safari";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDAE20C3028E54600C16F5D /* Build configuration list for PBXProject "Homestead for Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDAE2583028E54A00C16F5D /* Debug configuration for PBXProject "Homestead for Safari" */,
+				ABDAE2593028E54A00C16F5D /* Release configuration for PBXProject "Homestead for Safari" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		ABDAE25A3028E54A00C16F5D /* Build configuration list for PBXNativeTarget "Homestead for Safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDAE25B3028E54A00C16F5D /* Debug configuration for PBXNativeTarget "Homestead for Safari Extension (iOS)" */,
+				ABDAE25C3028E54A00C16F5D /* Release configuration for PBXNativeTarget "Homestead for Safari Extension (iOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		ABDAE25E3028E54A00C16F5D /* Build configuration list for PBXNativeTarget "Homestead for Safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDAE25F3028E54A00C16F5D /* Debug configuration for PBXNativeTarget "Homestead for Safari (iOS)" */,
+				ABDAE2603028E54A00C16F5D /* Release configuration for PBXNativeTarget "Homestead for Safari (iOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		ABDAE2613028E54A00C16F5D /* Build configuration list for PBXNativeTarget "Homestead for Safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDAE2623028E54A00C16F5D /* Debug configuration for PBXNativeTarget "Homestead for Safari Extension (macOS)" */,
+				ABDAE2633028E54A00C16F5D /* Release configuration for PBXNativeTarget "Homestead for Safari Extension (macOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		ABDAE2653028E54A00C16F5D /* Build configuration list for PBXNativeTarget "Homestead for Safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDAE2663028E54A00C16F5D /* Debug configuration for PBXNativeTarget "Homestead for Safari (macOS)" */,
+				ABDAE2673028E54A00C16F5D /* Release configuration for PBXNativeTarget "Homestead for Safari (macOS)" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDAE2093028E54600C16F5D /* Project object */;
+	validationLevel = 1;
+}

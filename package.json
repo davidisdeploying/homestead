@@ -1,0 +1,18 @@
+{
+  "name": "homestead",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "NODE_ENV=production esbuild app.jsx --bundle --minify --outfile=static/app.js --loader:.png=file --asset-names=images/[name]-[hash]",
+    "test:reader": "node --test test_reader_logic.mjs",
+    "test:scout": "node --test test_scout_logic.mjs"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.8"
+  }
+}
