@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Homestead maskable app icon</title>
+  <desc id="desc">The Record Stack mark inside a generous County Paper safe area for adaptive icon masks.</desc>
+  <rect width="512" height="512" fill="#F4EFE5"/>
+  <g transform="translate(102.4 102.4) scale(2.4)">
+    <path d="M20 28h76v84H20z" fill="none" stroke="#8A7A6D" stroke-width="7"/>
+    <path d="M31 17h77v84H31z" fill="#F4EFE5" stroke="#28211B" stroke-width="8"/>
+    <path fill="#28211B" d="M47 37h12v22h21V37h12v45H80V70H59v12H47z"/>
+    <path d="M48 89h44" stroke="#315F66" stroke-width="8"/>
+    <path d="M48 96h26" stroke="#8A7A6D" stroke-width="5"/>
+  </g>
+</svg>

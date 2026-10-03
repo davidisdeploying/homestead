@@ -1,0 +1,10 @@
+{
+  "name": "homestead-listing-capture-dev",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
