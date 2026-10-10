@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Homestead</title>
+  <desc id="desc">A compact Record Stack icon optimized for small browser tabs.</desc>
+  <path d="M20 28h76v84H20z" fill="none" stroke="#8A7A6D" stroke-width="8"/>
+  <path d="M31 17h77v84H31z" fill="#F4EFE5" stroke="#28211B" stroke-width="9"/>
+  <path fill="#28211B" d="M46 35h14v24h19V35h14v49H79V71H60v13H46z"/>
+  <path d="M47 91h47" stroke="#315F66" stroke-width="10"/>
+</svg>

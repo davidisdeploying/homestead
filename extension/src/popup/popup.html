@@ -1,0 +1,13 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><div class="mark">H</div><div><strong>HOMESTEAD</strong><small>Listing capture</small></div></header>
+  <main>
+    <section id="idle"><p>Open one Zillow or Redfin home listing, then extract the page you are viewing.</p><button id="extract">Extract this listing</button></section>
+    <section id="loading" hidden><p>Reading the current listing…</p></section>
+    <section id="review" hidden><div id="source" class="kicker"></div><h1 id="address"></h1><dl id="fields"></dl><div id="counts" class="counts"></div><div id="missing" class="warning"></div><button id="send">Review in Homestead</button><button id="again" class="secondary">Extract again</button></section>
+    <section id="result" hidden><p id="message"></p><button id="close" class="secondary">Close</button></section>
+  </main>
+  <script src="../adapters/registry.js"></script><script src="popup.js"></script>
+</body></html>

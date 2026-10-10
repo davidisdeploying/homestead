@@ -1,0 +1,17 @@
+[Unit]
+# Staggered away from Prospect Scout, which runs on even hours at :35
+# (prospect-scout-gmail.timer, OnCalendar=*-*-* 00/2:35:00). Homestead takes odd hours at
+# :05 so the two importers never contend for Alpha or for the Gmail API at once.
+#
+# Persistent=true means enabling this timer can fire an immediate catch-up run. That is
+# legitimate, not a bug -- but back up the Scout database first and expect it.
+Description=Run the Homestead Scout Gmail importer every two hours
+
+[Timer]
+OnCalendar=*-*-* 01/2:05:00 America/Chicago
+Persistent=true
+RandomizedDelaySec=10m
+Unit=homestead-scout-gmail.service
+
+[Install]
+WantedBy=timers.target

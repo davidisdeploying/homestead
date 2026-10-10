@@ -1,0 +1,11 @@
+node_modules/
+__pycache__/
+*.pyc
+finance.db
+*.csv
+captures/
+state/
+cf-backups/
+/extension/.stignore
+/extension/.stfolder/
+finance/local_facts.py
