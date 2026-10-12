@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Homestead monochrome</title>
+  <desc id="desc">A single-ink Record Stack mark for constrained one-color use.</desc>
+  <path d="M20 28h76v84H20zM31 17h77v84H31z" fill="none" stroke="#28211B" stroke-width="8"/>
+  <path fill="#28211B" d="M47 37h12v22h21V37h12v45H80V70H59v12H47z"/>
+  <path d="M48 90h44M48 98h26" stroke="#28211B" stroke-width="6"/>
+</svg>
